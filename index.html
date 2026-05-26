@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohsin Raza - Web Developer | BTech Student | Oasis Infobyte Intern" />
+  <title>Mohsin Raza | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Mohsin<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#converter" class="nav-link">Converter</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO / LANDING ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="tag-dot"></span>
+        Oasis Infobyte Intern · 2026
+      </div>
+      <h1 class="hero-title">
+        <span class="line-1">Hi, I'm</span>
+        <span class="line-2">Mohsin <span class="accent">Raza</span></span>
+      </h1>
+      <p class="hero-subtitle">
+        <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        A passionate BTech student building clean, functional websites and learning
+        the art of web development — one line of code at a time.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-folder-open"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:mr.mohsinraza26@gmail.com" target="_blank" title="Email" class="social-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/mohsinrz-dev" target="_blank" title="GitHub" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohsin-raza-338439408" target="_blank" title="LinkedIn" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card glass">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="file-name">mohsin.js</span>
+        </div>
+        <pre class="code-body"><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Mohsin Raza"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"Web Developer"</span>,
+  <span class="c-prop">college</span>: <span class="c-str">"BTech 1st Year"</span>,
+  <span class="c-prop">intern</span>: <span class="c-str">"Oasis Infobyte"</span>,
+  <span class="c-prop">skills</span>: [<span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>, <span class="c-str">"JS"</span>],
+  <span class="c-prop">status</span>: <span class="c-str">"Learning & Building 🚀"</span>
+};</pre>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 / about</span>
+        <h2 class="section-title">Who Am I?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="img-frame">
+            <img src="img/me.jpg" alt="Mohsin Raza" class="profile-img" />
+          </div>
+          <div class="img-badge glass">
+            <i class="fas fa-code"></i>
+            <span>Web Dev</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <h3 class="about-name">Mohsin Raza</h3>
+          <p class="about-text">
+            I'm a 1st year BTech student with a growing interest in web development.
+            I love building things for the internet — from clean landing pages to
+            interactive tools. Currently interning at <strong>Oasis Infobyte</strong>,
+            where I'm applying my skills and learning real-world development practices.
+          </p>
+          <p class="about-text">
+            I believe in writing clean, readable code and focusing on the user experience.
+            Every project I build teaches me something new, and I'm excited to keep growing.
+          </p>
+
+          <div class="about-cards">
+            <div class="about-card glass">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <h4>Education</h4>
+                <p>BTech — 1st Year</p>
+              </div>
+            </div>
+            <div class="about-card glass">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <h4>Internship</h4>
+                <p>Oasis Infobyte · Web Dev · 2026</p>
+              </div>
+            </div>
+            <div class="about-card glass">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>India</p>
+              </div>
+            </div>
+            <div class="about-card glass">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>mr.mohsinraza26@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="mailto:mr.mohsinraza26@gmail.com" class="btn btn-primary">
+            <i class="fas fa-envelope"></i> Hire Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 / skills</span>
+        <h2 class="section-title">What I Know</h2>
+      </div>
+      <p class="section-desc">Technologies and tools I've been working with as a beginner developer.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card glass" data-skill="90">
+          <div class="skill-icon html-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="skill-info">
+            <div class="skill-top">
+              <span class="skill-name">HTML5</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass" data-skill="80">
+          <div class="skill-icon css-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="skill-info">
+            <div class="skill-top">
+              <span class="skill-name">CSS3</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass" data-skill="70">
+          <div class="skill-icon js-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="skill-info">
+            <div class="skill-top">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass" data-skill="85">
+          <div class="skill-icon resp-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="skill-info">
+            <div class="skill-top">
+              <span class="skill-name">Responsive Design</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass" data-skill="75">
+          <div class="skill-icon git-icon">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <div class="skill-info">
+            <div class="skill-top">
+              <span class="skill-name">Git & GitHub</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card glass" data-skill="72">
+          <div class="skill-icon web-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="skill-info">
+            <div class="skill-top">
+              <span class="skill-name">Web Development</span>
+              <span class="skill-pct">72%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 / projects</span>
+        <h2 class="section-title">What I've Built</h2>
+      </div>
+      <p class="section-desc">Projects I built during my Oasis Infobyte internship in 2026.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card glass">
+          <div class="project-num">01</div>
+          <div class="project-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-desc">
+            A fully responsive personal portfolio website showcasing my skills, projects,
+            and contact information. Built with pure HTML, CSS, and JavaScript.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/mohsinrz-dev" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> Code
+            </a>
+            <a href="#home" class="project-link live">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass featured">
+          <div class="featured-badge">Featured</div>
+          <div class="project-num">02</div>
+          <div class="project-icon">
+            <i class="fas fa-thermometer-half"></i>
+          </div>
+          <h3 class="project-title">Temperature Converter</h3>
+          <p class="project-desc">
+            An interactive temperature converter tool that converts between Celsius,
+            Fahrenheit, and Kelvin with real-time results and input validation.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/mohsinrz-dev" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> Code
+            </a>
+            <a href="#converter" class="project-link live">
+              <i class="fas fa-external-link-alt"></i> Try It
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass">
+          <div class="project-num">03</div>
+          <div class="project-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="project-title">Landing Page</h3>
+          <p class="project-desc">
+            A modern, animated landing page with glassmorphism design, hero section,
+            smooth scrolling, and mobile-first responsive layout.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>Animations</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/mohsinrz-dev" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> Code
+            </a>
+            <a href="#home" class="project-link live">
+              <i class="fas fa-external-link-alt"></i> View
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TEMPERATURE CONVERTER ===================== -->
+  <section class="converter section" id="converter">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 / tool</span>
+        <h2 class="section-title">Temperature Converter</h2>
+      </div>
+      <p class="section-desc">Enter a temperature value and convert it between different units instantly.</p>
+
+      <div class="converter-wrap">
+        <div class="converter-card glass">
+          <div class="converter-header">
+            <div class="conv-icon">
+              <i class="fas fa-thermometer-half"></i>
+            </div>
+            <h3>Convert Temperature</h3>
+          </div>
+
+          <div class="conv-input-group">
+            <label for="tempInput">Enter Temperature</label>
+            <div class="input-row">
+              <input
+                type="number"
+                id="tempInput"
+                placeholder="e.g. 100"
+                class="conv-input"
+              />
+              <select id="fromUnit" class="conv-select">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+              </select>
+            </div>
+            <span class="input-error" id="inputError"></span>
+          </div>
+
+          <button class="btn btn-primary convert-btn" onclick="convertTemp()">
+            <i class="fas fa-exchange-alt"></i> Convert
+          </button>
+
+          <div class="conv-results" id="convResults">
+            <h4>Results</h4>
+            <div class="result-grid">
+              <div class="result-item glass" id="res-celsius">
+                <div class="result-unit">°C</div>
+                <div class="result-val" id="val-celsius">—</div>
+                <div class="result-label">Celsius</div>
+              </div>
+              <div class="result-item glass" id="res-fahrenheit">
+                <div class="result-unit">°F</div>
+                <div class="result-val" id="val-fahrenheit">—</div>
+                <div class="result-label">Fahrenheit</div>
+              </div>
+              <div class="result-item glass" id="res-kelvin">
+                <div class="result-unit">K</div>
+                <div class="result-val" id="val-kelvin">—</div>
+                <div class="result-label">Kelvin</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="conv-formula" id="convFormula"></div>
+
+          <button class="btn btn-outline reset-btn" onclick="resetConverter()">
+            <i class="fas fa-redo"></i> Reset
+          </button>
+        </div>
+
+        <div class="formula-ref glass">
+          <h4><i class="fas fa-book"></i> Formula Reference</h4>
+          <ul class="formula-list">
+            <li>
+              <span class="formula-from">°C → °F</span>
+              <code>(C × 9/5) + 32</code>
+            </li>
+            <li>
+              <span class="formula-from">°F → °C</span>
+              <code>(F − 32) × 5/9</code>
+            </li>
+            <li>
+              <span class="formula-from">°C → K</span>
+              <code>C + 273.15</code>
+            </li>
+            <li>
+              <span class="formula-from">K → °C</span>
+              <code>K − 273.15</code>
+            </li>
+            <li>
+              <span class="formula-from">°F → K</span>
+              <code>(F − 32) × 5/9 + 273.15</code>
+            </li>
+            <li>
+              <span class="formula-from">K → °F</span>
+              <code>(K − 273.15) × 9/5 + 32</code>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 / contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <p class="section-desc">I'm open to opportunities, collaborations, or just a friendly hello!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>
+            Whether you want to discuss a project, an internship opportunity,
+            or just want to say hi — my inbox is always open.
+          </p>
+
+          <div class="contact-items">
+            <a href="mailto:mr.mohsinraza26@gmail.com" class="contact-item glass">
+              <div class="contact-item-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-val">mr.mohsinraza26@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/mohsinrz-dev" target="_blank" class="contact-item glass">
+              <div class="contact-item-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div>
+                <span class="ci-label">GitHub</span>
+                <span class="ci-val">mohsinrz-dev</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/mohsin-raza-338439408" target="_blank" class="contact-item glass">
+              <div class="contact-item-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div>
+                <span class="ci-label">LinkedIn</span>
+                <span class="ci-val">Mohsin Raza</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap glass">
+          <h3>Send a Message</h3>
+          <form class="contact-form" id="contactForm" onsubmit="sendMessage(event)">
+            <div class="form-group">
+              <label for="userName">Your Name</label>
+              <input type="text" id="userName" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="userEmail">Your Email</label>
+              <input type="email" id="userEmail" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="userMessage">Message</label>
+              <textarea id="userMessage" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <a href="#home" class="nav-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>Mohsin<span class="logo-bracket">/&gt;</span>
+        </a>
+        <div class="footer-socials">
+          <a href="mailto:mr.mohsinraza26@gmail.com" class="fsocial" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/mohsinrz-dev" target="_blank" class="fsocial" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mohsin-raza-338439408" target="_blank" class="fsocial" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer-bottom">
+        <p>Designed &amp; Built by <span class="accent">Mohsin Raza</span></p>
+        <p>Oasis Infobyte Internship Project &copy; 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" onclick="scrollToTop()" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
